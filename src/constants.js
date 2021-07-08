@@ -13,8 +13,3 @@ exports.COLOR_CODES = [
     'HEX',
     'RGB',
 ];
-
-exports.KEYS = [
-    'message',
-    'lambda'
-];

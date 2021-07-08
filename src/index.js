@@ -9,10 +9,6 @@ const [
     HEX,
     RGB
 ] = require('./constants').COLOR_CODES;
-const [
-    MESSAGE_KEY,
-    LAMBDA
-] = require('./constants').KEYS;
 
 async function getColors(colors, callback) {
     callback(colors.map(color => {
