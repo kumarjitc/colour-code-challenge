@@ -46,7 +46,7 @@ async function colors() {
     console.log('We Are Getting Nice Colors For You.....');
 }
 
-colors().catch(error => {
+colors().catch(error => {// This is not async
     console.error(error);
 });
 
